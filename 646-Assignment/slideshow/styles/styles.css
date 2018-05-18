@@ -1,0 +1,45 @@
+/*A jQuery Image Selection Slideshow*/
+* {
+    margin: 0;
+    padding: 0;
+}
+#ssPic {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+#ssPic img {
+    margin: 10px;
+    position: absolute;
+    border: 15px solid #ccc;
+}
+ul {
+    margin-top: 10px;
+    padding: 0;
+    float: left;
+}
+li {
+  border-radius: 3px;
+  color: darkturquoise;
+  background: #eee;
+  cursor: pointer;
+  display: inline;
+  font-weight: 200;
+  margin: 10px 5px 0px 2px;
+  padding: 5px;
+  text-align: center;
+  width: 5px;
+}
+#nums {
+    position: relative;
+}
+#nums ul {
+    position: absolute;
+    margin: 235px 0 0 15px;
+}
+.current {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}

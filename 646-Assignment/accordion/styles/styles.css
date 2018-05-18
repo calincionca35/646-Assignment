@@ -1,0 +1,36 @@
+/*A jQuery Accordion*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #000;
+}
+h3 {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+    background-color: teal;
+    color: #fff;
+    width: 500px;
+    cursor: pointer;
+}
+p {
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+.current {
+    border: 1px solid black;
+    border-radius: 8px 8px 0 0;
+    padding: 5px;
+    margin: 10px;
+    background-color: #c5f442;
+    color: #fff;
+    width: 500px;
+    cursor: pointer;
+}
